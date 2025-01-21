@@ -1,0 +1,154 @@
+.header {
+    border-bottom: 2px solid #b1191a;
+}
+
+.header .logo {
+    height: 61px;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+
+/* 头部部分结束 */
+/* 主体部分开始 */
+.article {
+    position: absolute;
+    top: 126px;
+    left: 50%;
+    margin-left: -600px;
+    border: 1px solid #dfdfdf;
+}
+
+.article .articlehd {
+    height: 41px;
+    padding: 0 10px;
+    background-color: #ececec;
+}
+
+.article .articlehd .articlehdleft {
+    float: left;
+    font: 18px "MicrosoftYaHei";
+    color: #333333;
+    margin-top: 6px;
+}
+
+.article .articlehd .articlehdright {
+    float: right;
+    font: 14px "MicrosoftYaHei";
+    color: #333333;
+    margin-top: 9px;
+}
+
+.article .articlehd .articlehdright a {
+    font: 14px "MicrosoftYaHei";
+    margin-top: 9px;
+    color: #c81623;
+}
+
+.article .articlebody {
+    height: 479px;
+}
+
+.article .articlebody .divbody {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+.article .articlebody ul {
+    margin-top: 20px;
+}
+
+.article .articlebody ul li label {
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+    font: 14px/36px "MicrosoftYaHei";
+    color: #4d4d4d;
+}
+
+.article .articlebody ul li input {
+    display: inline-block;
+    width: 240px;
+    height: 36px;
+    border: 2px solid #999999;
+}
+
+.article .articlebody span {
+    margin-left: 11px;
+    width: 203px;
+    font: 12px/36px "MicrosoftYaHei";
+    color: #df3033;
+}
+
+.article .articlebody .error {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/矩形8.png) no-repeat;
+}
+
+.article .articlebody .safe {
+    margin-left: 169px;
+    font: 12px/36px "MicrosoftYaHei";
+}
+
+.article .articlebody .safe em {
+    display: inline-block;
+    font: normal 400 11px "SimSun";
+    vertical-align: middle;
+    width: 34px;
+    height: 13px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.article .articlebody .safe .ruo {
+    background-color: #de1111;
+}
+
+.article .articlebody .safe .zhong {
+    background-color: #40b83f;
+}
+
+.article .articlebody .safe .qiang {
+    background-color: #f79100;
+}
+
+.article .articlebody .xieyi {
+    margin-left: 85px;
+    margin-top: 42px;
+}
+
+.article .articlebody .xieyi input {
+    vertical-align: middle;
+}
+
+.article .articlebody .xieyi span {
+    font: normal 400 12px "MicrosoftYaHei";
+    color: #4d4d4d;
+}
+
+.article .articlebody .xieyi a {
+    font: normal 400 12px "MicrosoftYaHei";
+    color: #1ba1e6;
+}
+
+.article .articlebody .complete {
+    width: 200px;
+    height: 34px;
+    padding: 5px 71px;
+    background-color: #c81623;
+    font: normal 400 14px "MicrosoftYaHei";
+    color: #ffffff;
+    margin-left: 94px;
+    margin-top: 51px;
+}
+
+/* 主体部分结束 */
+/* 尾部区域开始 */
+.footer {
+    top: 700px;
+}
+
+/* 尾部区域结束 */

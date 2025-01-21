@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 4686366 */
+    src: url('../font/iconfont.woff2?t=t=1726648074287') format('woff2'),
+        url('./font/iconfont.woff?t=t=1726648074287') format('woff'),
+        url('./font/iconfont.ttf?t=t=1726648074287') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header .sk {
+    float: left;
+    width: 70px;
+    height: 32px;
+    margin-top: 43px;
+    padding-left: 13px;
+    margin-left: 13px;
+    border-left: 1px solid #b1191a;
+}
+
+/* 内容头部开始 */
+.boxone {
+    position: absolute;
+    top: 136px;
+    height: 45px;
+    left: 50%;
+    margin-left: -600px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.boxone .oneleft {
+    float: left;
+    margin: 0 28px;
+    height: 16px;
+    font: normal 700 16px/45px "MicrosoftYaHei-Bold";
+    color: #000000;
+}
+
+.boxone .oneright {
+    float: right;
+    padding-top: 13px;
+    margin-right: 38px;
+}
+
+.boxone .oneright ul li {
+    float: left;
+    height: 15px;
+    margin: 0 22px;
+    font: 14px "MicrosoftYaHei";
+
+}
+
+.boxone .oneright ul li a {
+    color: #666666;
+}
+
+.boxone .oneright .special::after {
+    content: "\e7fc";
+    font: 14px "iconfont";
+}
+
+/* 内容头部结束 */
+/* 内容主体开始 */
+.boxtwo {
+    position: absolute;
+    top: 181px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.boxtwo .boxtwotop {
+    margin-bottom: 27px;
+}
+
+.boxtwo .boxtwobody {
+    float: left;
+    height: 460px;
+    width: 290px;
+    margin-right: 13px;
+}
+
+#boxtwobodyspecial {
+    margin-right: 0;
+}
+
+.boxtwo .boxtwobody:hover {
+    border: 1px solid red;
+}
+
+.boxtwo .boxtwobody img {
+    width: 288px;
+}
+
+.boxtwo .boxtwobody .boxtwobodyone {
+    width: 275px;
+    margin-left: 12px;
+    font: 14px/17px "SimSun";
+    color: #666666;
+}
+
+.boxtwo .boxtwobody .boxtwobodytwo {
+    margin-left: 12px;
+}
+
+.boxtwo .boxtwobody .boxtwobodytwo h1 {
+    float: left;
+    color: #e60012;
+    font: normal 700 22px "MicrosoftYaHei";
+}
+
+.boxtwo .boxtwobody .boxtwobodytwo h1::before {
+    content: "¥";
+    font: normal 700 14px/21px "MicrosoftYaHei";
+}
+
+.boxtwo .boxtwobody .boxtwobodytwo p {
+    float: left;
+    margin-top: 8px;
+    font: normal 700 14px/21px "MicrosoftYaHei";
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.boxtwo .boxtwobody .boxtwobodythree {
+    width: 265px;
+    height: 14px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.boxtwo .boxtwobody .boxtwobodythree p {
+    float: left;
+    font: 14px/21px "SimSun";
+    margin-right: 11px;
+}
+
+.boxtwo .boxtwobody .boxtwobodythree .redbox {
+    float: left;
+    width: 133px;
+    height: 13px;
+    margin-top: 4px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #e12228;
+}
+
+.boxtwo .boxtwobody .boxtwobodythree .redboxone {
+    width: 110px;
+    height: 12px;
+    background-color: red;
+    border-radius: 5px 0 0 5px;
+}
+
+.boxtwo .boxtwobody .boxtwobodythree h4 {
+    float: left;
+    font: normal 400 14px/21px "SimSun";
+    margin-left: 11px;
+}
+
+.boxtwo .boxtwobody .boxtwobottom {
+    margin-top: 18px;
+    width: 290px;
+    height: 51px;
+    background-color: #b1191a;
+    padding: 14px 105px;
+}
+
+/* 内容主体结束*/
